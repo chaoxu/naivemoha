@@ -12,7 +12,7 @@ Example:
 
 Output:
 
-    ![Naive](http://i.imgur.com/cxCaS4f.png)
+![Naive](http://i.imgur.com/cxCaS4f.png)
 
 You can inspect the code for the implementation. 
 
