@@ -1,0 +1,21 @@
+% this is my first package
+% 
+% (c) Chao Xu
+%
+%% This program can be redistributed and/or modified under the terms
+%% of the LaTeX Project Public License Distributed from CTAN archives
+%% in directory macros/latex/base/lppl.txt.
+% 
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{naivemoha}
+  [2017/05/30 v0.01 LaTeX package for Moha]
+
+\RequirePackage{stackengine}
+\RequirePackage{graphicx}
+
+\newcommand{\moha}[1]{\stackon[1pt]{#1}{\hbox to 0pt{\hss\includegraphics[width=.8em]{naive}\hss}}}
+\newcommand{\Naive}{Na\moha{\i}ve}
+
+\endinput
+%%
+%% End of file `naivemoha.sty'.
